@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T09:45:43 GMT-04:00" name="Default suite" finished-at="2024-07-10T09:46:35 GMT-04:00" duration-ms="52399">
+    <groups>
+      <group name="Purchase">
+        <method signature="E2ETestforPOM.E2ETest(java.util.HashMap)[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" name="E2ETest" class="FrameworkConcepts.Tests.E2ETestforPOM"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-07-10T09:45:43 GMT-04:00" name="Default test" finished-at="2024-07-10T09:46:35 GMT-04:00" duration-ms="52399">
+      <class name="FrameworkConcepts.Tests.E2ETestforPOM">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:45:44 GMT-04:00" name="launchApplication" finished-at="2024-07-10T09:45:49 GMT-04:00" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:45:49 GMT-04:00" name="E2ETest" data-provider="getData" finished-at="2024-07-10T09:46:09 GMT-04:00" duration-ms="19593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@1, items=ZARA COAT 3, email=qa@tester.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:46:09 GMT-04:00" name="browserclose" finished-at="2024-07-10T09:46:10 GMT-04:00" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:46:10 GMT-04:00" name="launchApplication" finished-at="2024-07-10T09:46:19 GMT-04:00" duration-ms="9175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:46:19 GMT-04:00" name="E2ETest" data-provider="getData" finished-at="2024-07-10T09:46:35 GMT-04:00" duration-ms="16287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@02, items=IPHONE 13 PRO, email=qa12@tester.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2ETest -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:FrameworkConcepts.Tests.E2ETestforPOM@2ddc9a9f]" started-at="2024-07-10T09:46:35 GMT-04:00" name="browserclose" finished-at="2024-07-10T09:46:35 GMT-04:00" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- FrameworkConcepts.Tests.E2ETestforPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
